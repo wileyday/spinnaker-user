@@ -1,1 +1,1 @@
-sudo spinnaker-pkg-test scale web=1
+sudo spinnaker-user scale web=1
