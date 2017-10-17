@@ -5,6 +5,10 @@ app.get('/', function (req, res) {
   res.send('Hello User!!!');
 });
 
+app.get('/user', function (req, res) {
+  res.send('Hello User!!!');
+});
+
 app.get('/healthcheck', function (req, res) {
   res.send('checking health... OK!');
 });
