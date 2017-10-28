@@ -9,6 +9,6 @@ app.get('/healthcheck', function (req, res) {
   res.send('checking health... OK!');
 });
 
-app.listen(8080, function () {
+app.listen(7001, function () {
   console.log('Example app listening on port 8080!');
 });
