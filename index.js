@@ -10,5 +10,5 @@ app.get('/healthcheck', function (req, res) {
 });
 
 app.listen(7001, function () {
-  console.log('Example app listening on port 8080!');
+  console.log('Example app listening on port 7001!');
 });
